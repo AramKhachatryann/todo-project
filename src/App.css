@@ -1,0 +1,24 @@
+.App{
+    display: flex;
+    justify-content: center;
+}
+
+.AppChild {
+  margin: auto;
+  background-color: rgba(180, 180, 255, 0.3);
+  border: solid 10px gray;
+  border-radius: 10px;
+  padding: 10px 25px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  text-align: center;
+}
+
+#title{
+    font-size: 70px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px;
+    font-style: italic;
+}

@@ -1,0 +1,32 @@
+.TodoElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 600px;
+    background-color: white;
+    border:solid 1px gray;
+    border-radius: 4px;
+    margin: 3px 0;
+    padding: 3px;
+}
+
+.deleteBtn{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: red;
+    transform: scale(0.8);
+    transition: 200ms;
+    cursor: pointer;
+}
+.deleteBtn:hover{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: red;
+    transform: scale(1.1);
+    transition: 400ms;
+    font-weight: 600;
+    cursor: pointer;
+}
